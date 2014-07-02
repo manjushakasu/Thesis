@@ -1,0 +1,17 @@
+ 1. Make sure Java is installed in your system (JDK higher version than 1.3).
+ 2. Download Jar files itext, jcommon, jfreechart, jmf [Can be downloaded from MASON website]
+ 3. Download and install java 3D in your system.
+ 4. Install eclipse. [ eclipse kepler].
+ 5. Copy Mason project folder into workspace of eclipse.
+ 6. Open eclipse and import the Mason project folder into eclipse. Create an environment by giving setting the jar  file path to environment variables in eclipse. And set path to java3d.
+ 7. Then navigate to Mason -> src -> sim.app.noc3d. 
+ 8. Right click on sim.app.noc3d and select Runas -> java application. In options choose Noc3DWithUI and press ok. 
+ 9.After some time 2 windows appear. On right side window press play to run the model. Then you can see the     simulation. In console you can see printed data.
+ 10. Documentation to the project can be seen at folder "docs_public". "Mason -> src -> sim -> app -> noc3d -> docs_public"
+
+P.S : project files are at Mason -> src -> sim -> app -> noc3d.
+      For better understanding, in thesis, I have chnaged naming conventions of two class files:
+                               1. "NodeElement" as "Node".
+                               2. "RandomPacket" as "RandomAgent".
+ 
+ 

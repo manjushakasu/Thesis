@@ -1,0 +1,14 @@
+clear
+make clean
+
+export CLASSPATH=.:/home/mankas/Mason3D/mason/jcommon-1.0.16.jar:/home/mankas/Mason3D/mason/jfreechart-1.0.13.jar:/home/mankas/Mason3D/mason/jmf.jar:/home/mankas/Mason3D/mason/itext-1.2.jar:/home/mankas/j3d/lib/ext/j3dcore.jar:/home/mankas/j3d/lib/ext/j3dutils.jar:/home/mankas/j3d/lib/ext/vecmath.jar
+
+export LD_LIBRARY_PATH=/home/mankas/j3d/lib/i386
+
+make 3d
+
+java sim.app.heatbugs.HeatBugsWithUI
+
+
+
+
